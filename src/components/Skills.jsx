@@ -60,7 +60,7 @@ const Skills = () => {
                   <span>React</span>
                   <span>45%</span>
                 </div>
-                <div className='h-3 w-1/3 relative bg-amber-200 '>
+                <div className='h-3 w-5/12 relative bg-amber-200 '>
                 </div> 
                 {/* react  */}
                 {/* node js  */}
