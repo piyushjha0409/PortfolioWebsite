@@ -55,9 +55,9 @@ const Projects = () => {
         alt="..."
       />
       <div class="carousel-caption hidden md:block absolute text-center text-amber-700">
-        <h5 class="text-xl">iNotebook</h5>
-        <p>This is my blog website You can also put your content there.</p>
-        <a href="" className='text-2xl text-cyan-200 hover:text-amber-700'>Visit</a>
+        <h5 class="text-xl">Discussion Desk</h5>
+        <p>This is my summer training project for college. A platform where students can do coding challenges and get help by their teachers. Contest will also be conductd </p>
+        <a href="https://discussiondesk.pythonanywhere.com" className='text-2xl text-cyan-200 hover:text-amber-700'>Visit</a>
       </div>
     </div>
     <div class="carousel-item relative float-left w-full">

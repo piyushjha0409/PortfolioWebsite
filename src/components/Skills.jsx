@@ -33,7 +33,7 @@ const Skills = () => {
                   <span>HTML</span>
                   <span>60%</span>
                 </div>
-                <div className='h-3 w-60 relative bg-amber-200'>
+                <div className='h-3 w-3/5 relative bg-amber-200'>
                 </div>
                 {/* html  */}
                 {/* css  */}
@@ -66,19 +66,19 @@ const Skills = () => {
                 {/* node js  */}
                 <div className='flex items-center justify-between py-3'>
                 <ion-icon name="logo-nodejs"></ion-icon>
-                  <span>NodeJS</span>
-                  <span>30%</span>
+                  <span>Python</span>
+                  <span>60%</span>
                 </div>
-                <div className='h-3 w-1/3 relative bg-amber-200 '>
+                <div className='h-3 w-3/5 relative bg-amber-200 '>
                 </div>
                 {/* node js  */}
                 {/* MongoDB  */}
                 <div className='flex items-center justify-between py-3'>
                   <SiMongodb/>
-                  <span>MongoDB</span>
-                  <span>30%</span>
+                  <span>Django</span>
+                  <span>40%</span>
                 </div>
-                <div className='h-3 w-1/3 relative bg-amber-200 '>
+                <div className='h-3 w-2/5 relative bg-amber-200 '>
                 </div>
                 {/* mongoDB  */}
             </div>
