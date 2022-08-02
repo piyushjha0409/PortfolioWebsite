@@ -12,7 +12,7 @@ const Skills = () => {
           <div className=' m-2 p-2'>
             <h2 className='text-center font-bold font-custom2 px-3 m-2 text-white'>Soft Skills</h2>
             <div className="flex justify-center ">
-              <ul className='flex inline rounded-md px-3 md:mt-12'>
+              <ul className='flex inline  rounded-md px-3 md:mt-12'>
                 <li className='py-2 bg-amber-200 font-bold text-center rounded-md w-40 font-custom2 m-2'>Hardworking</li>
                 <li className='py-2 bg-amber-200 font-bold text-center rounded-md w-40 font-custom2 m-2'>Quick Learner</li>
                 <li className='py-2 bg-amber-200 font-bold text-center rounded-md w-40 font-custom2 m-2'>Team Work</li>
@@ -24,9 +24,9 @@ const Skills = () => {
           </div>
 
           {/* hard skills  */}
-          <div className='flex-1 w-full m-2 p-2 text-center font-custom2 justify-center'>
+          <div className='flex-1 md:w-full m-2 p-2 text-center font-custom2 justify-center md:justify-center  '>
             <h1 className='font-bold font-custom2 px-3 m-2 text-white '>Hard Skills</h1>
-            <div className=' mx-56 w-2/3 rounded-md mt-12 py-3  text-amber-200 font-bold'>
+            <div className=' md:mx-56 md:w-2/3 rounded-md mt-12 py-3  text-amber-200 font-bold'>
                 {/* HTMl  */}
                 <div className='flex items-center justify-between py-3'>
                   <ion-icon name="logo-html5"></ion-icon>
@@ -63,7 +63,7 @@ const Skills = () => {
                 <div className='h-3 w-5/12 relative bg-amber-200 '>
                 </div> 
                 {/* react  */}
-                {/* node js  */}
+                {/* python  */}
                 <div className='flex items-center justify-between py-3'>
                 <ion-icon name="logo-nodejs"></ion-icon>
                   <span>Python</span>
@@ -71,8 +71,8 @@ const Skills = () => {
                 </div>
                 <div className='h-3 w-3/5 relative bg-amber-200 '>
                 </div>
-                {/* node js  */}
-                {/* MongoDB  */}
+                {/* Python  */}
+                {/* Django  */}
                 <div className='flex items-center justify-between py-3'>
                   <SiMongodb/>
                   <span>Django</span>
@@ -80,7 +80,7 @@ const Skills = () => {
                 </div>
                 <div className='h-3 w-2/5 relative bg-amber-200 '>
                 </div>
-                {/* mongoDB  */}
+                {/* Django  */}
             </div>
           </div>
         </div>
