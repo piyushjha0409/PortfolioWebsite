@@ -26,7 +26,7 @@ const Skills = () => {
           {/* hard skills  */}
           <div className='flex-1 w-full m-2 p-2 text-center font-custom2 justify-center'>
             <h1 className='font-bold font-custom2 px-3 m-2 text-white '>Hard Skills</h1>
-            <div className=' mx-56 w-2/3 rounded-md mt-12 py-3  text-amber-200 font-bold'>
+            <div className=' mx-56 w-2/3 m-auto rounded-md mt-12 py-3  text-amber-200 font-bold '>
                 {/* HTMl  */}
                 <div className='flex items-center justify-between py-3'>
                   <ion-icon name="logo-html5"></ion-icon>

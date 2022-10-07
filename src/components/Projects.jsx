@@ -2,6 +2,7 @@ import React from 'react'
 import project1 from '../static/project1.png'
 import project2 from '../static/project2.png'
 import project3 from '../static/project3.png'
+import project4 from '../static/project4.png'
 import 'tw-elements';
 
 
@@ -34,6 +35,13 @@ const Projects = () => {
       data-bs-slide-to="2"
       aria-label="Slide 3"
     ></button>
+     <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="3"
+      class="active"
+      aria-label="Slide 4"
+    ></button>
   </div>
   <div class="carousel-inner relative w-full overflow-hidden">
     <div class="carousel-item active relative float-left w-full">
@@ -54,12 +62,27 @@ const Projects = () => {
         class="block w-4/5 m-auto opacity-75"
         alt="..."
       />
-      <div class="carousel-caption hidden md:block absolute text-center text-amber-700">
+      <div class="carousel-caption hidden md:block absolute text-center text-amber-700 h-auto">
         <h5 class="text-xl">Discussion Desk</h5>
         <p>This is my summer training project for college. A platform where students can do coding challenges and get help by their teachers. Contest will also be conductd </p>
         <a href="https://discussiondesk.pythonanywhere.com" className='text-2xl text-cyan-200 hover:text-amber-700'>Visit</a>
       </div>
     </div>
+  {/* project 4 */}
+    <div class="carousel-item relative float-left w-full">
+      <img
+        src={project4}
+        class="block w-4/5 m-auto opacity-75"
+        alt="..."
+      />
+      <div class="carousel-caption hidden md:block absolute text-center text-amber-700">
+        <h5 class="text-xl">Resume Builder</h5>
+        <p>This project was made for hackathon </p>
+        <a href="https://resume-builder-ineuron.netlify.app/" className='text-2xl text-cyan-200 hover:text-amber-700'>Visit</a>
+      </div>
+    </div>
+
+
     <div class="carousel-item relative float-left w-full">
       <img
         src={project3}
@@ -73,6 +96,8 @@ const Projects = () => {
       </div>
     </div>
   </div>
+
+
   <button
     class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0 w-32 bg-black"
     type="button"

@@ -3,7 +3,7 @@ import {Link} from 'react-scroll'
 
 const Navbar = () => {
   return (
-    <nav class="flex justify-between items-center bg-black sticky top-0">
+    <nav class="flex justify-between items-center bg-black sticky top-0 opacity-1">
     <div className='flex justify-between items-center max-w-screen-xl w-11/12 m-auto'>
     <header class="m-2 p-2 text-white">
         <ion-icon name="person-outline"></ion-icon>
