@@ -3,11 +3,11 @@ import {Link} from 'react-scroll'
 
 const Navbar = () => {
   return (
-    <nav class="flex justify-between items-center bg-black sticky top-0">
-    <div className='flex justify-between items-center max-w-screen-xl w-11/12 m-auto'>
-    <header class="m-2 p-2 text-white">
+    <nav class="md:flex sm:flex justify-between items-center bg-black sticky top-0">
+    <div className='flex justify-between items-center max-w-screen-xl sm:w-11/12 m-auto'>
+    <header class="sm:m-2 sm:p-2 text-white">
         <ion-icon name="person-outline"></ion-icon>
-        <p class="inline text-xl mx-2 font-custom tracking-widest">MY PORTFOLIO</p>
+        <p class="inline sm:text-lg sm:mx-2 font-custom sm:tracking-widest">MY PORTFOLIO</p>
     </header>
     <div class="inline text-white">
      <ul class="inline font-semibold font-custom"> 

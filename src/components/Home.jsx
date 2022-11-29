@@ -4,8 +4,8 @@ import Typewriter from 'typewriter-effect'
 
 const Home = () => {
   return (
-    <section className='flex md:h-screen h-96' id='home'>
-      <div className='md:text-11xl text-6xl items-center font-custom2 w-full flex justify-center font-bold font-custom text-amber-200'>
+    <section className='flex md:h-screen sm:h-96' id='home'>
+      <div className='md:text-11xl text-6xl sm:text-4xl items-center font-custom2 w-full flex justify-center font-bold font-custom text-amber-200'>
       <Typewriter
   onInit={(typewriter) => {
     typewriter.typeString(' Hello! <ion-icon name="happy-outline"></ion-icon><br>')
